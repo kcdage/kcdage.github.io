@@ -1,1 +1,1 @@
-hello world
+I am a third year graduate student in astronomy and astrophysics at Michigan State University. 
