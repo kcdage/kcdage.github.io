@@ -1,6 +1,6 @@
 I am a third year graduate student in astronomy and astrophysics at Michigan State University. 
 
-[alt-text][pic]
+![alt-text][pic]
 [pic]:https://github.com/kcdage/kcdage.github.io/blob/master/reginae.png
 
 
