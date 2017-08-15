@@ -1,13 +1,2 @@
 theme: jekyll-theme-slate
 title: Kristen Dage
-email: kcdage$@$msu.edu
-description: Academic home page for Kristen Dage
-#baseurl: "/~bindel/class/cs4220-s16/"
-#url: "http://www.cs.cornell.edu/"
-
-encoding: utf-8
-timezone: America/New_York
-
-exclude: ["Rakefile"]
-
-markdown: kramdown
