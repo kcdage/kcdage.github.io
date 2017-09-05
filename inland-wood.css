@@ -134,7 +134,7 @@ Version: 1.2
 Author: Gilbert Pellegrom (modified by Andreas Viklund)
 Author URI: http://dev7studios.com
 */
-.slider-wrapper .nivoSlider{position:relative;height:300px;background:#fafafa url(../images/loading.gif) no-repeat 50% 50%;margin-bottom:55px;}
+.slider-wrapper .nivoSlider{position:relative;height:320px;background:#fafafa url(../images/loading.gif) no-repeat 50% 50%;margin-bottom:55px;}
 .slider-wrapper .nivoSlider img{position:absolute;top:0;left:0;display:none;}
 .slider-wrapper .nivoSlider a{border:0;display:block;}
 .slider-wrapper .nivo-controlNav{position:absolute;left:50%;bottom:-41px;margin-left:-60px;/* Tweak this to center bullets */}
@@ -147,15 +147,4 @@ Author URI: http://dev7studios.com
 .slider-wrapper .nivo-caption a{color:#fff;border-bottom:1px dotted #fff;}
 .slider-wrapper .nivo-caption a:hover{color:#fff;}
 
-/* Mobile styles */
-#wrappermobile {width:100%; margin:0px auto;}
-#wrappermobile .slider-wrapper, #wrappermobile .slider-wrapper .nivoSlider {width:100%;}
-#wrappermobile .slider-wrapper .nivoSlider img{width:100%;}
-#wrappermobile #sitetitle {margin:20px auto 0; padding:0; text-align:center;float:none;}
-#wrappermobile #nav {float:none;}
-#wrappermobile #nav ul {margin:20px auto 5px;}
-#wrappermobile #nav ul li {margin:0 15px 10px; line-height:20px;}
-#wrappermobile #header-image {height:100px;}
-#wrappermobile #content {padding:15px;}
-#wrappermobile #footer{background-color:#f2f2f2;padding:10px 30px;}
-#wrappermobile #footer p{font-size:0.6em;margin:0;padding:0;}
+
