@@ -25,7 +25,7 @@ Photos by Thomas Wallström.
   display: table;
 }
 /* HTML elements */
-body{background:#101010 url(images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
+body{background:#101010 url(images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:15px;line-height:1.6em;}
 a{color:#383838;text-decoration:none;}
 a:hover{color:#555;text-decoration:none;}
 a img{border:none;}
