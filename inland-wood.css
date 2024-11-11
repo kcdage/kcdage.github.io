@@ -25,11 +25,11 @@ Photos by Thomas Wallström.
   display: table;
 }
 /* HTML elements */
-body{background:#FFFFFF url(images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:15px;line-height:1.6em;}
+body{background:#024950 url(images/.JPG) top left;color:#000;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:15px;line-height:1.6em;}
 a{color:#383838;text-decoration:none;}
-a:hover{color:#555;text-decoration:none;}
+a:hover{color:#000;text-decoration:none;}
 a img{border:none;}
-h1,h2,h3,h4{clear:left;color:#fff;font-weight:400;margin:0.7em 0;font-family:'Yanone Kaffeesatz';}
+h1,h2,h3,h4{clear:left;color:#000;font-weight:400;margin:0.7em 0;font-family:'Yanone Kaffeesatz';}
 h1{font-size:2.6em;}
 h2{font-size:1.9em;}
 h3{font-size:1.9em;}
@@ -48,11 +48,11 @@ b,strong {font-weight:700;}
 /* Layout IDs */
 #header{position:relative;}
 #sitetitle{float:left;margin:30px 0 10px 30px;}
-#sitetitle h1 {font-size:40px;color:#fff;margin:0;padding:0;}
+#sitetitle h1 {font-size:40px;color:#000;margin:0;padding:0;}
 #header-image{height:300px;margin:0;padding:0;}
-#content{padding:15px 30px;background-color:#643b1b;color:#ddd;}
-#content h2,#content h3,#content h4{color:#ddd;}
-#content a{color:#fff;text-decoration:underline;}
+#content{padding:15px 30px;background-color:#643b1b;color:#000;}
+#content h2,#content h3,#content h4{color:#000;}
+#content a{color:#000;text-decoration:underline;}
 #extended{padding:15px 30px;background:#fff url(images/contentbg.jpg) top left;}
 #extended h3{color:#333333;}
 #extended a{text-decoration:underline;}
@@ -61,19 +61,19 @@ b,strong {font-weight:700;}
 #toplinks{padding:0 30px;}
 #toplinks ul{list-style:none;margin:0;text-align:right;}
 #toplinks ul li{display:inline-block;font-size:11px;margin:15px 0 12px 15px;}
-#toplinks ul li a{color:#dadddd;}
-#toplinks ul li a:hover{color:#fff;text-decoration:none;}
+#toplinks ul li a{color:#000;}
+#toplinks ul li a:hover{color:#000000;text-decoration:none;}
 
 /* Wood background */
-#toplinks, #content, #footer{background:none;background-color:#18453b;}
+#toplinks, #content, #footer{background:none;background-color:#FFFFFF;}
 
 /* Main navigation menu */
 #nav{float:right;font-family:'Droid Sans',Verdana,Tahoma,sans-serif;text-align:center;}
 #nav ul{list-style:none;margin:30px 30px 26px 20px;}
 #nav ul li{background:none!important;display:inline-block;text-align:right;height:auto;line-height:25px;margin-bottom:0;margin-left:25px;position:relative;}
-#nav ul li a{color:#333333;display:block;font-size:12px;padding-top:0;text-transform:uppercase;}
-#nav ul li a:hover{color:#333333;}
-#nav ul li a.current{color:#333333;}
+#nav ul li a{color:#000;display:block;font-size:12px;padding-top:0;text-transform:uppercase;}
+#nav ul li a:hover{color:#000000;}
+#nav ul li a.current{color:#000000;}
 
 /* Columns */
 #sidebar{width:33.3%;}
@@ -92,10 +92,10 @@ b,strong {font-weight:700;}
 #footer{clear:both;background:none;background-color:#121212;}
 #footer p{color:#ccc;font-size:12px;margin:0;padding:15px 30px;text-align:center;}
 #footer a{color:#ccc;}
-#footer a:hover{color:#eee;}
+#footer a:hover{color:#000000;}
 
 /* Image alignment */
-img.alignleft,img.aligncenter,img.alignright{background:#fff;padding:4px;margin-bottom:10px;border:1px solid #ddd;}
+img.alignleft,img.aligncenter,img.alignright{background:#000000;padding:4px;margin-bottom:10px;border:1px solid #ddd;}
 .alignleft{float:left;margin-right:30px;}
 .alignright{float:right;margin-left:30px;}
 .aligncenter{text-align:center;display:block;clear:both;margin:5px auto;}
@@ -112,7 +112,7 @@ img.alignleft,img.aligncenter,img.alignright{background:#fff;padding:4px;margin-
 *:first-child+html .clearfix{min-height:1%;}
 
 /* Alternate color scheme, add class="altcolors" to the body tag to apply */
-.altcolors{background-color:#e6e8e8;}
+.altcolors{background-color:#000;}
 .altcolors #wrapper600, .altcolors #wrapper760, .altcolors #wrapper960, .altcolors #wrapper1240, .altcolors #wrapperfluid {box-shadow: 0px 0px 28px #888;}
 .altcolors #toplinks, .altcolors #footer{background-color:#eaecec;}
 .altcolors #content{background-color:#f2f4f4;}
@@ -130,7 +130,7 @@ img.alignleft,img.aligncenter,img.alignright{background:#fff;padding:4px;margin-
 .nivoSlider a.nivo-imageLink{position:absolute;top:0;left:0;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;}
 .nivo-slice{display:block;position:absolute;z-index:5;height:100%;}
 .nivo-box{display:block;position:absolute;z-index:5;}
-.nivo-caption{position:absolute;left:0;bottom:0;background:#000;color:#fff;opacity:0.8;width:100%;z-index:8;}
+.nivo-caption{position:absolute;left:0;bottom:0;background:#000;color:#000000;opacity:0.8;width:100%;z-index:8;}
 .nivo-caption p{padding:5px;margin:0;}
 .nivo-caption a{display:inline!important;}
 .nivo-html-caption{display:none;}
@@ -158,8 +158,8 @@ Author URI: http://dev7studios.com
 .slider-wrapper .nivo-directionNav a{display:block;width:30px;height:30px;background:url(../images/arrows.png) no-repeat;text-indent:-9999px;border:0;}
 .slider-wrapper a.nivo-nextNav{background-position:-30px 0;right:15px;}
 .slider-wrapper a.nivo-prevNav{left:15px;}
-.slider-wrapper .nivo-caption{font-family:'Noto Sans',Helvetica,Arial,sans-serif;background:rgba(0, 0, 0, 0.2);text-align:center;text-shadow:0 0 4px #111;}
-.slider-wrapper .nivo-caption a{color:#fff;border-bottom:1px dotted #fff;}
-.slider-wrapper .nivo-caption a:hover{color:#fff;}
+.slider-wrapper .nivo-caption{font-family:'Noto Sans',Helvetica,Arial,sans-serif;background:rgba(0, 0, 0, 0.2);text-align:center;text-shadow:0 0 4px #000;}
+.slider-wrapper .nivo-caption a{color:#000000;border-bottom:1px dotted #000000;}
+.slider-wrapper .nivo-caption a:hover{color:#000000;}
 
 
